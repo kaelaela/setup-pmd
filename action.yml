@@ -3,7 +3,7 @@ author: Felipe Echanique Torres
 description: "This action allows to use PMD Source Code Analyzer from GitHub Actions"
 inputs:
   pmd-version:
-    description: "Version of PMD to download from https://github.com/pmd/pmd/releases i.e. 6.32.0"
+    description: "Version of PMD to download from https://github.com/pmd/pmd/releases i.e. 6.33.0"
     required: true
 runs:
   using: "node12"

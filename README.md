@@ -15,9 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: sfdx-actions/setup-pmd@v1
+      - uses: kaelaela/setup-pmd@v2
         with:
-          pmd-version: '6.32.0'
+          pmd-version: '6.33.0'
       - name: run-pmd
         run: pmd -d ./force-app/main/default/classes -R category/apex/design.xml -f text
 ```
@@ -26,7 +26,7 @@ jobs:
 ```
 MIT License
 
-Copyright (c) 2019 Felipe Echanique Torres (felipe.echanique at gmail.com)
+Copyright (c) 2021 kaelaela(Yuichi Maekawa) <kaelaela.31@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
